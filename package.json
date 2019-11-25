@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/matyaspeterfi/foxplayer_project/issues"
   },
-  "homepage": "https://github.com/matyaspeterfi/foxplayer_project#readme"
+  "homepage": "https://github.com/matyaspeterfi/foxplayer_project#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.1"
+  }
 }
