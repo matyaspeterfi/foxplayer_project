@@ -1,0 +1,19 @@
+{
+  "name": "foxplayer_project",
+  "version": "1.0.0",
+  "description": "Foxplayer project for GFA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matyaspeterfi/foxplayer_project.git"
+  },
+  "author": "Matyas Peterfi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matyaspeterfi/foxplayer_project/issues"
+  },
+  "homepage": "https://github.com/matyaspeterfi/foxplayer_project#readme"
+}
