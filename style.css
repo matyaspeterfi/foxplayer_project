@@ -1,3 +1,95 @@
-h1{
-  color: red;
+div{
+  border: 1px solid red;
+}
+
+.mainCont{
+  width: 700px;
+  height: 400px;
+  display: grid;
+  grid-template-rows: repeat(15, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  margin: 0 auto;
+}
+
+.logoCont{
+  grid-column: 1/4;
+  grid-row: 1/5;
+  background-color: green;
+  display: flex;
+  flex-flow: row;
+}
+
+.logo{
+  width: 55%;
+  height: 100%;
+}
+
+.notifications{
+width: 45%;
+height: 100%;
+}
+
+.playlistsCont{
+  background-color: purple;
+  grid-column: 1/6;
+  grid-row: 5/14;
+  overflow-y: auto;
+}
+
+.playlistHeader{
+  width: 60%;
+  height: 30px;
+  background-color: lightcoral;
+}
+
+.playlistItem{
+  background-color: maroon;
+  height: 30px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.deletePL{
+  height: 20px;
+  justify-self: flex-end;
+
+}
+
+.controlsCont{
+  background-color: pink;
+  grid-column: 1/11;
+  grid-row: 14/16;
+}
+
+#playButton{
+  height: 15px;
+}
+
+.currentlyCont{
+  background-color:yellow;
+  grid-row: 1/4;
+  grid-column: 4/11;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.albumart{
+  width: 100%;
+  grid-column: 1/3;
+}
+
+.tracksCont{
+  background-color: blue;
+  grid-row: 4/14;
+  grid-column: 6/11;
+  overflow-y: auto;
+}
+
+.track{
+  background-color: lightblue;
+  height: 40px;
+  display: flex;
+  flex-flow: row;
 }

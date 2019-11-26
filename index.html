@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,11 +8,33 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>OI!</h1>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    
+    <div class="mainCont">
+      <div class="logoCont">
+        <img src='./assets/img/foxplayer.png' class="logo">
+        <div class="notifications">Notifications come here MOFO</div>
+      </div>
+      <div class="playlistsCont">
+        <div class="playlistHeader">
+          <p class="playlistsHeaderText">Playlists</p>
+        </div>
+      </div>
+      <div class="controlsCont">
+        <audio id="player" src="assets/audio/Organoid_-_09_-_Purple_Drift.mp3">Audio playback is not supported by your shitty outdated browser</audio>
+        <img id="backButton" src= "assets/img/rewind.svg">
+        <img id="playButton" src= "assets/img/play.svg">
+        <img id="nextButton" src="assets/img/forward.svg">
+        <progress id="progressBar" value="0" max="1"></progress>
+      </div>
+      <div class="currentlyCont">
+        <img src="assets/img/music-placeholder.png" class="albumart">
+      </div>
+      <div class="tracksCont">
+        <div class="track">
+          <p class="trackTitle">Hobo shit</p>
+          <p class="trackDuration">3:53</p>
+        </div>
+      </div>
+    </div>
     <script src="main.js" async defer></script>
   </body>
 </html>
