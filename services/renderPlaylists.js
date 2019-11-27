@@ -14,10 +14,10 @@ let renderPlaylists = (input) => {
     playlistItem.appendChild(playlistTitle);
     playlistCont.appendChild(playlistItem);
 
-    if (input[i].system == 0) {
+    if (input[i].rdonly == 0) {
       let deleteButton = document.createElement('img');
       deleteButton.setAttribute('class', `deletePL ${input[i].id}`);
-      deleteButton.setAttribute('src', '/assets/img/deletePL.svg');
+      deleteButton.setAttribute('src', '../assets/img/deletePL.svg');
       playlistItem.appendChild(deleteButton);
     }
   }
