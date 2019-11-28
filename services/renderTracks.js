@@ -6,7 +6,8 @@ let renderTracks = (input) => {
   while (tracksCont.firstChild) {
     tracksCont.removeChild(tracksCont.firstChild);
   }
-
+  console.log(input);
+  console.log(input.length);
   for (let i = 0; i < input.length; i++) {
     let track = document.createElement('div');
     track.setAttribute('class', 'track');
@@ -27,7 +28,6 @@ let renderTracks = (input) => {
 
     tracksCont.appendChild(track);
   }
-  console.log(input);
 }
 
 export { renderTracks };

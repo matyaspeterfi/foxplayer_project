@@ -102,4 +102,4 @@ node_modules
 
 *.code-workspace
 
-./assets/audio/
+assets/audio/*
